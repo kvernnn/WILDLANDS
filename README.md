@@ -1,269 +1,355 @@
+[WILDLANDS_Rulebook.md](https://github.com/user-attachments/files/32522754/WILDLANDS_Rulebook.md)
 # WILDLANDS
 
 ## Terrain Tiles
-Highlands -> Secondary: 
-Plains
-Wetlands
-Forest
-River
-Tundra
-Great Watering Hole (Neutral)
-Ancient Grove (Neutral)
 
-Each terrain tile produces **Food** when foraged and **Materials**. Certain animal abilities may allow the collection of **Food** and **Materials** differently. See animal section.
+The standard terrain types are:
+
+- Highlands
+- Plains
+- Wetlands
+- Forest
+- River
+- Tundra
+
+Two additional neutral terrain tiles are also used:
+
+- Great Watering Hole
+- Ancient Grove
+
+Terrain tiles produce **Food** or **Materials** when foraged, depending on the terrain's relationship to the foraging animal. Certain animal abilities modify how resources are collected. See [Animals](#animals) and [Forage](#1-forage).
 
 ### Neutral Tiles
-Two special tiles are placed during setup and remained fixed for the entire game:
-Great Watering Hole and Ancient Grove
-> Every animal treats these as neutral terrain
-> When foraging here, collect 2 resources (any type and combination). For example, **2 Food**, **2 Materials** or **1 Food + 1 Material**
-> No structure may ever be built on neutral tiles
-> These tiles are natural gathering points and negotiation hubs, no one can claim exclusive advantage
+
+The Great Watering Hole and Ancient Grove are placed during setup and remain fixed for the entire game.
+
+- Every animal treats these as neutral terrain.
+- When foraging on a neutral tile, collect **2 resources** in any combination: **2 Food**, **2 Materials**, or **1 Food and 1 Material**.
+- Structures cannot be built on neutral tiles.
+- Neutral tiles are shared gathering and negotiation spaces. No player can claim an exclusive terrain advantage there.
 
 ## Animals
-Animal      | Primary      |  Secondary      |  Pack Size | Total Tokens
-Eagle       | Highlands    |  Plains         |  1         | 4
-Bear        | Forest       |  Highlands      |  2         | 6
-Crocodile   | River        |  Wetlands       |  2         | 6
-Wolf        | Tundra       |  Forest         |  3         | 9
-Frog        | Wetlands     |  River          |  3         | 9
-Hare        | Plains       |  Tundra         |  3         | 9
-Rat         | _See passive_|  _See passive_  |  4         | 12
 
-Each animal has:
-> Home terrain (Primary / Secondary) - where they forage at better efficiency and may build structures.
-> Pack size - the minimum and maximum of the specific animal tokens needed on a tile to build a structure there
-> Spawn rate - the number of animal tokens placed per **Reproduce** action
-> Passive ability - always active, no action required
-> Active ability 1 / 2 - each can only be used when the specific ability card is played
+| Animal | Primary Terrain | Secondary Terrain | Pack Size | Total Tokens |
+| --- | --- | --- | ---: | ---: |
+| Eagle | Highlands | Plains | 1 | 4 |
+| Bear | Forest | Highlands | 2 | 6 |
+| Crocodile | River | Wetlands | 2 | 6 |
+| Wolf | Tundra | Forest | 3 | 9 |
+| Frog | Wetlands | River | 3 | 9 |
+| Hare | Plains | Tundra | 3 | 9 |
+| Rat | See **Infestation** | See **Infestation** | 5 | 12 |
 
+Each animal has the following attributes:
+
+- **Home terrain:** The animal's primary and secondary terrains, where it forages more efficiently and may build structures.
+- **Pack size:** The minimum number of that animal's tokens required on a tile to build a structure there.
+- **Spawn rate:** The maximum number of animal tokens that may be placed during one **Reproduce** action.
+- **Passive ability:** An ability that is always active and requires no action.
+- **Active abilities:** Abilities that can be used only by playing the corresponding **Species Ability Card**.
 
 ### Animal Abilities and Interactions
-#### Eagle
-Home terrain : Highlands (P) / Plains (S)
-Pack size : 1
-Spawn rate : 1
-Passive : **Apex Roamer** - The Eagle has **+1 tile** distance when moving
-Active 1 : **Distant Travels** - Requires **Distant Travels** card in hand. You must not use a **Move** action this turn as this counts as a **Move** action. You may move your Eagles up to **3 tiles** each.
 
-Active 2 : **Kleptoparasitism** - Requires **Kleptoparasitism** card in hand. You cannot play this card during your turn. Instead, you may choose to play it whenever another animal uses the **Forage** action. If you do so, take steal **1 resource** from the resources that animal just took.
+#### Eagle
+
+- **Home terrain:** Highlands (Primary) / Plains (Secondary)
+- **Pack size:** 1
+- **Spawn rate:** 1
+- **Passive — Apex Roamer:** Each Eagle may move **1 additional tile** whenever it moves.
+- **Active 1 — Distant Travels:** Requires a **Distant Travels** card. This ability counts as your **Move** action, so you cannot take another **Move** action this turn. You may move each of your Eagles up to **3 tiles**.
+- **Active 2 — Kleptoparasitism:** Requires a **Kleptoparasitism** card. This reactive card cannot be played during your own turn. When another animal uses the **Forage** action, you may play it to steal **1 resource** that animal just collected.
 
 #### Bear
-Home terrain: Highlands (P) / Plains (S)
-Pack size : 2
-Spawn rate : 1
-Passive : **Omnivore** - The Bear may choose to forage **1 Material** instead of **Food** when **Foraging** on Plains tiles
-Active 1 : **Salmon Run** - Requires **Salmon Run** card in hand. You must use this as the first action during your turn. You may move one Bear token to any **River** tile on the board, regardless of distance. Immediately collect **1 Food**.
 
-Active 2 : **Mark Territory** - Requires **Mark Territory** card in hand. All tiles currently occupied by Bears are marked until your next turn. Other animals may not end their **Move** on or **Forage** from those tiles. Animals already in those tiles may still **Move** out.
+- **Home terrain:** Forest (Primary) / Highlands (Secondary)
+- **Pack size:** 2
+- **Spawn rate:** 1
+- **Passive — Omnivore:** When foraging on a Plains tile, the Bear may collect **1 Material** instead of **1 Food**.
+- **Active 1 — Salmon Run:** Requires a **Salmon Run** card and must be used as the first action of your turn. Move one Bear token to any River tile, regardless of distance, then immediately collect **1 Food**.
+- **Active 2 — Mark Territory:** Requires a **Mark Territory** card. Until the start of your next turn, all tiles occupied by your Bears are marked. Other animals cannot end a **Move** on or **Forage** from those tiles. Animals already on those tiles may still move out.
 
 #### Crocodile
-Home terrain: Wetlands (P) / River(S)
-Pack size : 2
-Spawn rate : 1
-Passive : **Lurking Presence** - Other players with animals on a tile you occupy must spend **1 Food** to you when they take the **Forage** action there.
-Active 1 : **Death Roll** - Requires **Death Roll** card in hand. Until the start of your next turn, any other animal passing or ending their **Move** on tiles you occupy must give you **2 Food** or cannot enter.
 
-Active 2 : **High-Speed Land Galloping** - Requires **High-Speed Land Galloping** card in hand. You must not use a **Move** action this turn as this counts as a **Move** action. You may move your Crocodiles up to **2 tiles** each.
+- **Home terrain:** River (Primary) / Wetlands (Secondary)
+- **Pack size:** 2
+- **Spawn rate:** 1
+- **Passive — Lurking Presence:** When another player forages on a tile occupied by one of your Crocodiles, that player must give you **1 Food**.
+- **Active 1 — Death Roll:** Requires a **Death Roll** card. Until the start of your next turn, another animal must give you **2 Food** before it can enter or pass through a tile occupied by one of your Crocodiles. If it cannot or will not pay, it cannot enter that tile.
+- **Active 2 — High-Speed Land Galloping:** Requires a **High-Speed Land Galloping** card. This ability counts as your **Move** action, so you cannot take another **Move** action this turn. You may move each of your Crocodiles up to **2 tiles**.
 
 #### Wolf
-Home terrain : Forest (P) / Tundra (S)
-Pack size : 3
-Spawn rate : 1
-Passive : **Pack Synergy** - When you **Forage** on any tile, gain **+1** Food for each other adjacent tile occupied by a Wolf token (maximum +3).
-Active 1 : **Pack Hunt** - Requires **Pack Hunt** card in hand. If you have 3 or more Wolf tokens on a single tile, you may collect **2 Food + 1 Material**. You may still use the **Forage** action this turn.
 
-Active 2 : **Kill Zone** - Requires **Kill Zone** card in hand. When a tile is adjacent to at least 3/4/5+ tiles each occupied by a Wolf token, you may collect **1/2/3 resource(s)** from each unique animal in that tile. 
+- **Home terrain:** Tundra (Primary) / Forest (Secondary)
+- **Pack size:** 3
+- **Spawn rate:** 1
+- **Passive — Pack Synergy:** Whenever you forage, gain **1 additional Food** for each adjacent tile occupied by at least one of your Wolf tokens, to a maximum of **3 additional Food**.
+- **Active 1 — Pack Hunt:** Requires a **Pack Hunt** card. If at least 3 of your Wolf tokens occupy the same tile, collect **2 Food and 1 Material**. You may still take a **Forage** action this turn.
+- **Active 2 — Kill Zone:** Requires a **Kill Zone** card. If a tile is adjacent to at least 3, 4, or 5 tiles occupied by your Wolf tokens, collect 1, 2, or 3 resources respectively from each other player with an animal on the surrounded tile.
 
 #### Frog
-Home terrain : Wetlands (P) / Forest (S)
-Pack size : 3
-Spawn rate : 2
-Passive : **Leg Day** - When you use the **Move** action, you may choose to only move one Frog token. If you do so, you may move an **+1** tile for each other Frog token in play (maximum +2). 
-Active 1 : **Sticky Situation** - Requires **Sticky Situation** card in hand. All other animals occupying a tile with a Frog token becomes immobilised (they cannot **Move** until the start of your next turn).
 
-Active 2 : **Tongue Tug** - Requires **Tongue Tug** card in hand. You may target any animal within **2** tiles of any Frog token. Pull that animal **1** tile closer to that Frog token and immobilise them (they cannot **Move** until the start of your next turn.
+- **Home terrain:** Wetlands (Primary) / River (Secondary)
+- **Pack size:** 3
+- **Spawn rate:** 2
+- **Passive — Leg Day:** When taking the **Move** action, you may choose to move only one Frog token. That Frog may move **1 additional tile** for each other Frog token you have in play, to a maximum of **2 additional tiles**.
+- **Active 1 — Sticky Situation:** Requires a **Sticky Situation** card. Until the start of your next turn, all other animals sharing a tile with one of your Frogs are immobilised and cannot move.
+- **Active 2 — Tongue Tug:** Requires a **Tongue Tug** card. Choose another animal within **2 tiles** of one of your Frogs. Pull that animal **1 tile** closer to the Frog. It is then immobilised and cannot move until the start of your next turn.
 
 #### Hare
-Home terrain : Plains (P) / Tundra (S)
-Pack size : 3
-Spawn rate : 2
-Passive : **Snowshoe Sprint** - When you use a **Move** action to enter a **Plains (P) / Tundra (S)** tile, you may immediately move **+1** additional tile for free. This bonus can only trigger once per turn.
-Active 1 : **Zig-Zag** - Requires **Zig-Zag** card in hand. You cannot play this card during your turn. Instead, you may choose to play it immediately after an opponent targets you with an animal ability to cancel that ability's effects and move that Hare token **1** tile in any direction.
 
-Active 2 : **Burrow** - Requires **Burrow** card in hand. If the Hare is currently on a **Plains (P) / Tundra (S)** tile, you may remove the Hare from the board and place it onto any other empty **Plains (P) / Tundra (S)** tile.
+- **Home terrain:** Plains (Primary) / Tundra (Secondary)
+- **Pack size:** 3
+- **Spawn rate:** 2
+- **Passive — Snowshoe Sprint:** When one of your Hares enters a Plains or Tundra tile during a **Move** action, it may immediately move **1 additional tile** for free. This ability can trigger only once per turn.
+- **Active 1 — Zig-Zag:** Requires a **Zig-Zag** card. This reactive card cannot be played during your own turn. When an opponent targets one of your Hares with an animal ability, play this card to cancel that ability's effects and move the targeted Hare **1 tile** in any direction.
+- **Active 2 — Burrow:** Requires a **Burrow** card. If a Hare is on a Plains or Tundra tile, remove it from the board and place it on any other empty Plains or Tundra tile.
 
 #### Rat
-Home terrain : None
-Pack size : 4
-Spawn rate : 2
-Passive : **Infestation** - The Rat has no fixed home terrain type. Instead, any tile where the Rat player has **5 or more tokens** is treated as their home terrain for all purposes -- foraging bonuses, passive effects. Additionally, when the Rat player's token count on any tile reaches **5**, a structure is automatically placed for free on that tile. If the Rat token count **drops below 5** for any reason, the structure is **immediately removed** and returned to the player's supply. Rat structures are worth **1 VP** when placed (instead of standard **2 VP**). You cannot build **Structures** using the **Build** action.
-Active 1 : **Scurry** - Requires **Scurry** card in hand. You cannot play this card during your turn. Instead, play it when an opponent moves an animal or token onto a tile containing your Rat tokens. Immediately move **up to 2** Rat tokens from that tile to adjacent tile(s).
 
-Active 2 : **Nibble** - Requires **Nibble** card in hand. If you have **3+** Rat tokens on a tile with another animal's structure, remove and return it to that player. Gain **2** food.
+- **Home terrain:** None
+- **Pack size:** 5
+- **Spawn rate:** 2
+- **Passive — Infestation:** The Rat has no fixed home terrain. A tile containing at least **5 of your Rat tokens** is treated as your home terrain for all purposes. When the number of your Rats on a tile reaches **5**, place one of your structures there for free. If the number drops below 5, immediately remove the structure and return it to your supply. Rat structures are worth **1 VP** instead of the standard **2 VP**. Rats cannot construct structures using the **Build** action.
+- **Active 1 — Scurry:** Requires a **Scurry** card. This reactive card cannot be played during your own turn. When an opponent moves an animal token onto a tile containing your Rats, move up to **2 Rat tokens** from that tile to one or more adjacent tiles.
+- **Active 2 — Nibble:** Requires a **Nibble** card. If at least 3 of your Rats occupy a tile containing another player's structure, remove that structure and return it to its owner. Gain **2 Food**.
 
-Clarifications:
-If for any other reason, the Rat's structure is destroyed by another player despite having **5+** Rat tokens in the tile, the structure is only rebuilt when there is a change in Rat token count on that tile AND the condition described in the Rat's passive is fulfilled. For example, 5+ Rat tokens -> Structure built -> Other player destroys Rat's structure -> Rat player **Move** **1+** Rat token(s) in OR **Reproduce** action taken -> Structure built
+**Rat structure clarification:** If another player destroys a Rat structure while at least 5 Rats remain on its tile, the structure is rebuilt only after the number of Rats on that tile changes and remains at or above 5. For example: 5 Rats → structure placed → structure destroyed → a sixth Rat moves onto the tile → structure rebuilt. If the count falls below 5, the structure is rebuilt when it later returns to 5.
 
 ## Resources
-There are **two** resource types in WILDLANDS
+
+There are two resource types in WILDLANDS.
 
 ### Food
-**Food** is the universal currency of survival. It is used to reproduce, pay movement costs on specific terrains, fuel certain card effects and drive negotiations.
-Food can be foraged from any tile that your animals are on. Terrains that are your animal's **primary** terrain grants **2 Food** when the forage action is taken.
+
+**Food** is the universal currency of survival. It is used to reproduce, pay movement costs, activate certain effects, and support negotiations.
+
+Food can be foraged from any occupied tile. On an animal's primary terrain, collect **1 Food for each of your animal tokens** on that tile.
 
 ### Materials
-Materials can be foraged only from terrain tiles that are your animal's **secondary** terrain. 
 
-## Actions
-Each turn you take exactly 3 actions, each from a different type. Though, you may play more than one card per turn. The 6 available actions are
+**Materials** are used primarily to construct structures. They can be foraged only from an animal's secondary terrain. On secondary terrain, collect **1 Material for each of your animal tokens** on that tile.
+
+## Turn Structure and Actions
+
+At the start of your turn, draw cards until you have 5 cards in hand. Then take exactly **3 actions**.
+
+Each action type can normally be taken only once per turn. **Play a Card** is the only action that may be repeated. For example, a player may take **Move, Play a Card, Play a Card** or **Play a Card, Forage, Play a Card**.
+
+Reactive cards that explicitly say they are played during another player's turn do not consume one of the active player's actions.
 
 ### 1. Forage
-Collect resources from **each** tile your animal tokens currently occupy.
-> Non-primary/secondary terrain: Collect **1 Food** per tile regardless the number of animal tokens you have on that tile
-> Primary terrain: Collect **1 Food** for each animal tokens you have on that tile
-> Secondary terrain: Collect **1 Material** for each animal tokens you have on that tile
-> Great Watering Hole / Ancient Grove: Collect **2 Resources** (any combination) per tile regardless the number of animal tokens you have on that tile
+
+Collect resources from **each tile** containing at least one of your animal tokens.
+
+- **Neither primary nor secondary terrain:** Collect **1 Food per tile**, regardless of how many of your tokens occupy it.
+- **Primary terrain:** Collect **1 Food per animal token** you have on that tile.
+- **Secondary terrain:** Collect **1 Material per animal token** you have on that tile.
+- **Great Watering Hole or Ancient Grove:** Collect **2 resources per tile** in any combination, regardless of how many of your tokens occupy it.
 
 Examples:
-Crocodile on a **Wetlands** tile will forage **1 Material** since **Wetlands** is the **secondary** terrain of the Crocodile.
-Bear on a **Forest** tile will forage **1 Food** since **Forest** is the **primary** terrain of the Bear.
-**2** Bear tokens on a **River** tile will only forage **1 Food** since **River** is **neither** the primary nor secondary terrain of the Bear.
-**2** Bear tokens on a **Forest** tile **with Bear structure** will forage **4 Food** since **Forest** is the **primary** terrain of the Bear.
+
+- A Crocodile on a Wetlands tile collects **1 Material**, because Wetlands is the Crocodile's secondary terrain.
+- A Bear on a Forest tile collects **1 Food**, because Forest is the Bear's primary terrain.
+- Two Bears on a River tile collect only **1 Food**, because River is neither the Bear's primary nor secondary terrain.
+- Two Bears on a Forest tile collect **2 Food**. A structure on that tile provides separate automatic income at the start of the owner's turn; it does not increase the forage yield.
 
 ### 2. Move
-Move your tokens, each up to **1 tile** unless stated otherwise in animal abilities or cards. For each token moved, spend **1** Food.
-> Each token's movement is resolve separately, you do not need to move tokens in the same direction or distance
-> You may choose not to move all your tokens
-> You may move tokens onto any tile, including tiles occupied by other player's tokens unless certain animal abilities restrict it
-> Tokens may not move through face-down tiles, they must stop at the further discovered tile and use an Explore action to proceed
-> Each tile can only have a maximum of **5 animal tokens**, if the tile is full, no token can **Move** through or end on the tile.
+
+Move any number of your tokens up to **1 tile each**, unless an ability or card states otherwise. Spend **1 Food for each token moved**.
+
+- Resolve each token's movement separately. Tokens do not need to move in the same direction or travel the same distance.
+- You do not need to move every token.
+- You may enter tiles occupied by other players unless an ability prevents it.
+- Tokens cannot move through face-down tiles. They must stop on the furthest revealed tile and use an **Explore** action to proceed.
+- A tile can contain no more than **6 animal tokens in total**. If a tile is full, no token may enter or move through it.
 
 ### 3. Reproduce
-Spend **Food** to place tokens from your reserve onto the board. The amount of Food spent depends on how many pieces you already have on board, shown below.
-> Tokens must be placed on a tile you currently occupy
-> You cannot place more tokens than you have in your reserve
-> You cannot reproduce if the tile occupancy limit is reached
-> Rat's automatic structure placement triggers immediately if new tokens bring their count on that tile to **5+**
+
+Spend Food to place tokens from your reserve onto one or more tiles you currently occupy. You may place up to your animal's **spawn rate**, subject to the number of tokens in your reserve and the six-token tile limit.
+
+Use the following prototype cost scale, based on the number of your animal tokens on the board before reproducing:
+
+| Your Tokens on the Board | Food Cost |
+| ---: | ---: |
+| 1–3 | 1 Food |
+| 4–6 | 2 Food |
+| 7–9 | 3 Food |
+| 10 or more | 4 Food |
+
+These values are provisional and should be adjusted after playtesting.
+
+- You must place each new token on a tile you already occupy.
+- You cannot place more tokens than you have in your reserve.
+- You cannot place a token on a tile that has reached its occupancy limit.
+- Rat structures are placed immediately if reproduction brings the Rat count on a tile to 5 or more.
 
 ### 4. Play a Card
-Play **one** card from your hand and resolve its effect immediately.
-> Discard the card face-up to your discard pile after use
-> If the card is **Animal-locked**, you must be the matching animal type to activate its effect
-> If you hold a Animal-locked card you cannot activate, you may still play it as a **discard** for **1 Bone token**
 
-There are two types of cards:
-1. Animal-locked : Only certain animals can use it
-2. Generic : Any animal can use it
+Play one card from your hand and resolve its effect immediately. Each card played requires one **Play a Card** action unless it is explicitly described as a reactive card or as counting as another action type.
+
+- After resolving a card, place it face-up in your discard pile.
+- Only the matching animal may activate a **Species Ability Card**.
+- A player who cannot activate a Species Ability Card may discard or trade it as described in [Species Ability Cards](#species-ability-cards).
+- Unlike other action types, **Play a Card** may be selected more than once during the same turn.
 
 ### 5. Build
-Construct a **Structure** on a tile you currently occupy that fulfils the requirements:
-> The tile type matches one of your animal's home terrain (primary or secondary). For Rats, see Rat passive.
-> You have tokens on that tile equal to or equal than your **pack size**. For Rats, see Rat passive
-Cost : **1 Food + 2 Material**
-Limit : **1 Structure** per player per tile. Two different animal players may each have a structure on the same tile if both meet the requirements independently.
 
-Structure provides:
-> **+2 VP** immediately upon construction (Rat structures: **+1 VP**)
-> **+1 additional** resource for each animal tokens you have on that tile when **Foraging**
-> **Architect title** awarded to player with the most number of structures standing at the end of the game
+Construct a structure on a tile you currently occupy if all the following requirements are met:
+
+- The tile is one of your animal's home terrains.
+- The tile contains at least as many of your animal tokens as your pack size.
+- The tile is not a neutral tile.
+- You pay **1 Food and 2 Materials**.
+
+Rats cannot use the **Build** action; see **Infestation** instead.
+
+There is a limit of **1 structure per player per tile**. Different players may each have a structure on the same tile if they independently meet the requirements.
+
+When constructed, a standard structure awards **2 VP** immediately. A Rat structure awards **1 VP**.
 
 ### 6. Explore
-Move **one token** onto any adjacent **face-down** tile and flip it face-up
-> Token must be adjacent to the face-down tile before the action
-> Immediately collect **1 Pathfinder** token
-> If the revealed tile is your home terrain, you may immediately **Forage** there as a bonus (not an action), according to the **Forage** rules
+
+Move one token onto an adjacent face-down tile and flip that tile face-up.
+
+- The exploring token must be adjacent to the face-down tile before the action.
+- Immediately collect **1 Pathfinder token**.
+- If the revealed tile is one of your home terrains, you may immediately forage on that tile as a bonus without taking a **Forage** action.
 
 ## Structures
-Structures are the backbone of your long-term economy. Once built, they generate passive income every round without **Forage** actions.
-Build requirement : Home terrain tile + Pack size tokens present
-Build cost : **1 Food + 2 Material** 
-Passive income : **1 Food + 1 Material** at the start of your turn (automatic)
-VP on construction : **2 VP** (Rat: **1 VP**)
-Limit : 1 per player per tile
-Destruction : Specific card effects or animal abilities. On destruction, return structure to the player's reserve
+
+Structures provide long-term automatic income.
+
+| Attribute | Rule |
+| --- | --- |
+| Build requirement | Home-terrain tile with at least the animal's pack size in tokens |
+| Build cost | 1 Food and 2 Materials |
+| Passive income | 1 Food and 1 Material at the start of the owner's turn |
+| VP when constructed | 2 VP; Rat structures award 1 VP |
+| Limit | 1 structure per player per tile |
+| Destruction | Only through specified cards or abilities; return the structure to its owner's supply |
+
+Structures do **not** increase the resources gained from a **Forage** action.
 
 ## Card Deck
-All players draw from the same central deck. Cards are the primary source of surprise and disruption
+
+All players draw from the same central deck. Cards are the primary source of surprise, interaction, and disruption.
+
+### Prototype Deck Construction
+
+Use these provisional values until sufficient playtest data is available:
+
+- Include Species Ability Cards only for the animals being used in the current game.
+- Add **3 copies of each active ability card** for every participating animal. Because each animal has two active abilities, this adds 6 Species Ability Cards per player.
+- Add approximately **8 Generic Cards per player**.
+- Use more copies of weaker, broadly useful Generic Cards and fewer copies of powerful or highly disruptive cards:
+  - Minor effect: 3 copies
+  - Standard effect: 2 copies
+  - Powerful effect: 1 copy
+- Choose **1 or 2 Events** for each game and pair each Event with one randomly selected Condition Card. Events and Condition Cards are not shuffled into the central deck.
+
+For a three-player prototype, this creates approximately 42 central-deck cards: 18 Species Ability Cards and 24 Generic Cards. Adjust the proportions after tracking average game length, card-play frequency, and how often players draw unusable Species Ability Cards.
 
 ### Card Categories
-#### Generic cards
-Powerful one-time effects.
+
+#### Generic Cards
+
+Generic Cards have one-time effects and may be played by any animal.
+
 Examples:
-> Territorial Claim: All other animals on one tile you occupy must spend **1 Food** immediately to the supply or move off to an adjacent tile of their choice
-> Scarcity: Choose a tile, until the start of your next term, no player may collect resources from the tile
-> Biodiversity disruption: Move one of your tokens to an adjacent non-home terrain tile. Then, **Forage**. You must not use the **Forage** action this turn.
-> Takeover: Choose a tile occupied by your tokens, destroy any other structure on that tile not belonging to you
-> Scavenging: Choose a tile you occupy. Steal 1 resource from each player with tokens on that tile
-> Sponging: Until the start of your next turn, whenever a player **Forages**, gain the same resources
-> Home-building: The next structure you build this turn costs 1 resource less
-> Not in my house!: Until the start of your next turn, whenever a player **Builds** on any tile of your primary terrain, take 1 resource from them of their choice
-> Flood: One Flatlands or Forest tile becomes impassable for 2 rounds. Tokens already there may stay there.
-> Wildfire: Destroy all structures on one Forest tile
-> Rockslide: One Highlands tile cannot be entered until the start of your next round
 
-### Animal-locked cards
-Only specific animals can use the card's effect. Any player may hold them.
-These cards are needed to use the animal's active abilities.
+- **Territorial Claim:** All other animals on one tile you occupy must either pay **1 Food** to the supply or move to an adjacent tile of their owner's choice.
+- **Scarcity:** Choose a tile. Until the start of your next turn, no player may collect resources from it.
+- **Biodiversity Disruption:** Move one of your tokens to an adjacent non-home-terrain tile, then forage there. You cannot take a separate **Forage** action this turn.
+- **Takeover:** Choose a tile occupied by your tokens and destroy one other player's structure on that tile.
+- **Scavenging:** Choose a tile you occupy. Steal **1 resource** from each other player with tokens on that tile.
+- **Sponging:** Until the start of your next turn, whenever another player forages, gain the same resources they collect.
+- **Home-building:** The next structure you build this turn costs **1 fewer resource**.
+- **Not in My House!:** Until the start of your next turn, whenever another player builds on a tile matching your primary terrain, take **1 resource of their choice** from them.
+- **Flood:** One Plains or Forest tile becomes impassable for 2 rounds. Tokens already there may remain.
+- **Wildfire:** Destroy all structures on one Forest tile.
+- **Rockslide:** One Highlands tile cannot be entered until the start of your next turn.
 
-Animal-locked cards as trade goods
-If you hold a animal-locked card you cannot activate, you have three options:
-- Discard it during your **Play a Card** action for **1 Bone token**. Place the card in your discard pile. Every time you have **5 Bone tokens**, return them to the supply and take **3 VPs**
-- Trade it to the relevant animal player in exchange for resources, other cards, or promises. You cannot trade for VPs or other tokens. If you brokered a trade, gain **1 Symbiotic token**
+#### Species Ability Cards
+
+Only the matching animal can activate a Species Ability Card. These cards are required to use the animal's active abilities, although any player may hold them.
+
+If you hold a Species Ability Card that you cannot activate, you have two options:
+
+1. **Discard it:** Use a **Play a Card** action to discard it and gain **1 Bone token**. Each Bone token is provisionally worth **1 VP** and counts toward your score immediately.
+2. **Trade it:** Trade it to the matching animal player for resources, other cards, or promises. VP and tokens cannot be traded. Whenever you successfully broker such a trade, gain **1 Diplomatic token**.
+
+The 1-Bone-to-1-VP value is a prototype rule. During playtesting, compare the average number of Bone tokens earned in games with different player counts and adjust the value or deck composition if necessary.
 
 ## Events and Conditions
-Event cards are revealed under certain conditions. The effects affect all players and cannot be evaded. Events have massive effects and rare, so only 1-2 Events are chosen randomly each game. For each Event, randomly choose a Condition card. The chosen Events are not revealed, placed facedown beside the board. Place the Condition cards face up on each Event card. Each Condition card describes the way the Event under it is triggered.
 
-### Condition Cards
-Examples:
-> The first time any player attains 6 VPs, immediately trigger the Event under this card
-> The first time any player fields ALL their animal tokens, immediately trigger the Event under this card
-> When all tiles are face-up, immediately trigger the Event under this card
+Events affect every player and cannot be avoided. Because their effects are substantial, only 1 or 2 Events are randomly selected for each game.
 
-### Event cards
-Examples:
-> Meteor Strike: Restart the game, reshuffle the board and reshuffle all cards. Keep any resources, VPs and tokens with the players
-> Plague: In reversed game order, starting from the current player, remove half (rounded down) of each player's animal tokens from the board back to them reserves. Example: 5 animal tokens / 2 -> 2 removed (rounded down)
-> Doomsday: Game ends after each player takes exactly one turn. If event is revealed in the middle of a player's turn, the player is granted an additional turn afterwards.
+During setup, pair each selected Event with one random Condition Card. Place each Event face-down beside the board and place its Condition Card face-up on top of it. A Condition Card describes how the Event beneath it is triggered.
+
+### Condition Card Examples
+
+- The first time any player reaches 6 VP, immediately reveal and resolve the Event beneath this card.
+- The first time any player places all their animal tokens on the board, immediately reveal and resolve the Event beneath this card.
+- When all terrain tiles are face-up, immediately reveal and resolve the Event beneath this card.
+
+### Event Card Examples
+
+- **Meteor Strike:** Restart the game by reshuffling the board and all cards. Players retain their resources, VP, and animal tokens.
+- **Plague:** In reverse turn order, beginning with the current player, each player removes half of their animal tokens from the board, rounded down, and returns them to their reserve. For example, a player with 5 tokens on the board removes 2.
+- **Doomsday:** Finish the current turn. Beginning with the next player, every other player takes one final turn in normal turn order. After they have finished, the player whose turn triggered Doomsday takes one additional final turn. The game then ends and proceeds to final scoring.
 
 ## Trading and Negotiation
-Trading and Negotiation are **free**, they do not consume an action and can happen at any point during the player's turn.
 
-### What can be traded
-> Resources (Food, Material)
-> Cards from your hand (including type-locked cards)
-> Promises (verbal agreements about future actions)
+Trading and negotiation are free and do not consume an action. They may occur at any point during the active player's turn.
 
-Promises are not binding! Even if your animal is not a sly fox, you can choose to break a promise, there is no mechanical penalty. 
+### What Can Be Traded
+
+- Resources: Food and Materials
+- Cards from your hand, including Species Ability Cards
+- Promises about future actions
+
+Promises are not binding. Players may break them without a mechanical penalty.
+
+VP, Bone tokens, Diplomatic tokens, Pathfinder tokens, and other tokens cannot be traded.
 
 ## Scoring and Titles
+
 ### Ongoing VP
-Source                    |    VP Earned
-Building a structure      |   +2 VP immediately (Rat: +1 VP)
-Every 5 Bone tokens       |   +3 VP
+
+| Source | VP Earned |
+| --- | ---: |
+| Constructing a standard structure | +2 VP immediately |
+| Placing a Rat structure | +1 VP immediately |
+| Each Bone token | +1 VP immediately, provisionally |
 
 ### Titles
-Resolved at the end of the game
-Title              | Awarded To                                | Bonus VP
-Pathfinder         | Most Pathfinder tokens (tiles explored)   | +5 VP
-Glutton            | Most Food held at game end                | +5 VP
-Hoarder            | Most Material held at game end            | +5 VP
-Architect          | Most Structures standing at game end      | +4 VP
-Chronicler         | Most cards played (count discard pile)    | +4 VP
-Broker             | Most Broken tokens at game end            | +4 VP
-Tiebreakers:
-If two players are tied for a title at game end, both receive half the bonus VP rounded down.
 
-## End Game
-The game ends **immediately** when either of the following occurs:
-> The central card deck is exhausted. If the deck runs out during a player's turn, the player finishes the turn and the game ends
-> Any player that reaches 20 VP (excluding bonus VP) at the end of a round
-When the end is triggered, proceed to the final scoring described above. The player with the highest total VP wins
-Tiebreakers: The most titles held.
+Titles are resolved during final scoring.
 
+| Title | Awarded To | Bonus VP |
+| --- | --- | ---: |
+| Pathfinder | Player with the most Pathfinder tokens | +5 VP |
+| Glutton | Player holding the most Food | +5 VP |
+| Hoarder | Player holding the most Materials | +5 VP |
+| Architect | Player with the most structures still standing | +4 VP |
+| Chronicler | Player with the most cards in their discard pile | +4 VP |
+| Broker | Player with the most Diplomatic tokens | +4 VP |
 
-## On your turn
-- Draw till 5 cards
-- Take 3 different actions (Play a Card action is repeatable)
-- Trade freely at any point
+If players tie for a title, each tied player receives half of its bonus VP, rounded down.
 
+## End of the Game
+
+The end of the game is triggered by whichever of the following occurs first:
+
+1. **The central deck is exhausted.** If the deck runs out during a player's turn, that player finishes the turn before the game ends.
+2. **A player has at least 20 VP at the end of a round.** Title bonuses are not included when checking this threshold.
+
+When either condition is triggered, proceed to final scoring and award all title bonuses. The player with the highest total VP wins.
+
+If players tie for the highest total VP, the tied player with the most titles wins. If they are still tied, they share the victory.
+
+## Turn Summary
+
+1. Draw until you have 5 cards in hand.
+2. Take 3 actions. Action types must be different, except that **Play a Card** may be selected more than once.
+3. Trade freely at any point during your turn.
