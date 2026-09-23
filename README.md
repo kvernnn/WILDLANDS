@@ -266,9 +266,9 @@ Once during your turn, without spending an action, you may spend **1 Material** 
 
 All players draw from the same central deck. Cards are the primary source of surprise, interaction, and disruption.
 
-### Prototype Deck Construction
+### Deck Construction
 
-Use the following deck construction for the balanced short-game format:
+Use the following deck construction game format:
 
 - Include Species Ability Cards only for the animals being used in the current game.
 - Add **2 copies of each active ability card** for every participating animal. Because each animal has two active abilities, this adds **4 Species Ability Cards per player**.
@@ -285,7 +285,7 @@ This creates a **30-card deck for 3 players** or a **40-card deck for 4 players*
 
 #### Generic Cards
 
-Generic Cards have one-time effects and may be played by any animal.
+Generic Cards have one-time effects and may be played by any animal. Some cards are labelled (Secret!). When played, place them face-down in front of the player. When the conditions of the card are met, reveal and resolve the effects, then place them in the players' discard pile. Multiple secret cards can be placed at once
 
 Examples:
 
@@ -294,12 +294,15 @@ Examples:
 - **Biodiversity Disruption:** Move one of your tokens to an adjacent non-home-terrain tile, then forage there. You cannot take a separate **Forage** action this turn.
 - **Takeover (Powerful):** Choose a tile occupied by your tokens and destroy one other player's structure on that tile. Include no more than one copy in the deck.
 - **Scavenging:** Choose a tile you occupy. Steal **1 resource** from each other player with tokens on that tile.
-- **Sponging (Powerful):** Until the start of your next turn, whenever another player forages, gain matching resources, to a maximum of **3 total resources** gained through this card. Include no more than one copy in the deck.
+- **Sponging (Powerful) (Secret):** Until the start of your next turn, whenever another player forages, you may choose to reveal this card to gain matching resources. Include no more than one copy in the deck.
 - **Home-building:** The next structure you build this turn costs **1 fewer resource**.
-- **Not in My House!:** Until the start of your next turn, whenever another player builds on a tile matching your primary terrain, take **1 resource of their choice** from them.
+- **Not in My House! (Secret):** Until the start of your next turn, whenever another player builds on a tile matching your primary terrain, take **1 resource of their choice** from them.
 - **Flood:** One Plains or Forest tile becomes impassable until the start of your next turn. Tokens already there may remain.
 - **Wildfire (Powerful):** Destroy all unfortified structures on one Forest tile. Include no more than one copy in the deck.
 - **Rockslide:** One Highlands tile cannot be entered until the start of your next turn.
+- **Moving Day!:** Destroy up to 2 structures. Pay 2 food for each structure destroyed. You may target your own structures.
+- **Bolster:** Fortify up to 2 structures. Pay 1 food. You may target other players' structures
+- **Abandon:** Choose a tile containing a structure and the matching animal. Move all tokens of that animal to an adjacent tile. Pay 2 food. You may target other player's animal tokens,
 
 #### Species Ability Cards
 
@@ -307,7 +310,7 @@ Only the matching animal can activate a Species Ability Card. These cards are re
 
 If you hold a Species Ability Card that you cannot activate, you have two options:
 
-1. **Discard it:** Use a **Play a Card** action to discard it and gain **1 Bone token**. Bone tokens are converted to VP only during final scoring and do not count toward the 12-VP end-game threshold.
+1. **Discard it:** Use a **Play a Card** action to discard it **face-down** in your discard pile and gain **1 Bone token**. Bone tokens are converted to VP only during final scoring and do not count toward the 12-VP end-game threshold.
 2. **Trade it:** Trade it to the matching animal player for resources, other cards, or promises. VP and tokens cannot be traded. Whenever you successfully broker such a trade, gain **1 Diplomatic token**.
 
 During final scoring, every **2 Bone tokens** are worth **1 VP**. An unpaired Bone token is worth 0 VP. A Species Ability Card discarded for a Bone token does not count toward the Chronicler title.
@@ -364,20 +367,19 @@ Titles are resolved during final scoring.
 | Glutton | Player holding the most Food | +3 VP |
 | Hoarder | Player holding the most Materials | +3 VP |
 | Architect | Player with the most structures still standing | +3 VP |
-| Chronicler | Player with the most resolved cards in their discard pile | +2 VP |
+| Chronicler | Player with the most resolved (face-up) cards in their discard pile | +2 VP |
 | Broker | Player with the most Diplomatic tokens | +2 VP |
 
 If players tie for a title, each tied player receives half of its bonus VP, rounded down.
 
-For **Chronicler**, count only cards that were played and resolved for their printed effect. Do not count Species Ability Cards discarded for Bone tokens.
+For **Chronicler**, count only cards that were played and resolved (face-up) for their printed effect. Do not count Species Ability Cards discarded for Bone tokens.
 
 ## End of the Game
 
 The end of the game is triggered by whichever of the following occurs first:
 
-1. **The final scheduled round is completed:** round 5 in a 3-player game or round 4 in a 4-player game.
-2. **The central deck is exhausted.** If the deck runs out during a player's turn, that player finishes the turn. Every other player then takes one final turn in normal turn order, and the triggering player receives one additional final turn.
-3. **A player has at least 12 VP at the end of a round.** Title bonuses and Bone-token conversion are not included when checking this threshold. Every player then takes one additional final turn, beginning with the next player in normal turn order; the triggering player takes the last of these turns.
+1. **The central deck is exhausted.** If the deck runs out during a player's turn, that player finishes the turn. Every other player then takes one final turn in normal turn order, and the triggering player receives one additional final turn.
+2. **A player has at least 12 VP at the end of a round.** Title bonuses and Bone-token conversion are not included when checking this threshold. Every player then takes one additional final turn, beginning with the next player in normal turn order; the triggering player takes the last of these turns.
 
 If more than one condition is reached at the same time, use the condition listed first above. After all required turns are completed, convert Bone tokens, award title bonuses, and determine the winner. Do not trigger another final-turn sequence during final turns.
 
