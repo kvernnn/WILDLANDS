@@ -9,7 +9,7 @@ The balanced short-game format supports **3–4 players** and is designed to las
 | 3 | 30 cards | 5 rounds |
 | 4 | 40 cards | 4 rounds |
 
-A round ends after every player has taken one turn. Track rounds with a marker. See [End of the Game](#end-of-the-game) for the other end conditions.
+A round ends after every player has taken one turn. See [End of the Game](#end-of-the-game) for the other end conditions.
 
 ## Terrain Tiles
 
